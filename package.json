@@ -1,0 +1,15 @@
+{
+  "name": "osnova-basic-application",
+  "version": "0.1.1",
+  "description": "Sample application based on OSNOVA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Sasha snov Noviel",
+  "license": "ISC",
+  "dependencies": {
+    "osnova": "^0.2.1"
+  }
+}
