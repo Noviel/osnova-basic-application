@@ -1,6 +1,6 @@
 {
   "name": "osnova-basic-application",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Sample application based on OSNOVA",
   "main": "index.js",
   "scripts": {
