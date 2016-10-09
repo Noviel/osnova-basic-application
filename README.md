@@ -1,1 +1,1 @@
-"# osnova-basic-application" 
+Sample basic application built on OSNOVA.
