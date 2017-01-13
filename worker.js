@@ -1,8 +1,13 @@
 module.exports = () => {
   
   const opts = {
-      init: (osnova) => { console.log('Hello. I am worker init func.'); },
-      start: (osnova) => { console.log('And I am worker start func!'); },
+      start: (osnova) => {
+        const app = osnova.express;
+        app.get('/', (req, res) => {
+          res.send(') ooo o oo ooo  o');
+        });
+        console.log('And I am worker start func!');
+      },
       core: require('./config').core
   };
 

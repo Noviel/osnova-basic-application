@@ -10,6 +10,6 @@
   "author": "Sasha snov Noviel",
   "license": "ISC",
   "dependencies": {
-    "osnova": "^0.2.1"
+    "osnova": "^0.14.1"
   }
 }
